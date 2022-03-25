@@ -1,0 +1,74 @@
+body{
+    background-color: #B7CADB;
+    font: normal 15pt arial;
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+section{
+    /*background-color: #fff;*/
+    text-align: center;
+    /*border-radius: 10px;*/
+    align-items: center;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+
+form#container-calc{
+    max-width: 290px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20%;
+    background-color: #F3E9DD;
+    /*margin-left: 40%;
+    margin-top: 10%;*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type^="text"] {
+    background-color: rgba(243, 233, 221, 0.8);
+    border: none;
+    padding: 5px;
+    margin: 3%;
+    font-size: 20pt;
+    text-align: end;
+    max-width: 250px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+input[type^="button"] {
+    color: #bda27e;
+    border: none;
+    background-color: rgba(243, 233, 221, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+div#b-numeros {
+    max-width: 140px;
+    margin-left: 3%;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: none;
+}
+div#b-operadores {
+    max-width: 102px;
+    justify-content: space-evenly;
+    float: right;
+}
