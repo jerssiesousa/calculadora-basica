@@ -3,11 +3,12 @@ body{
     font: normal 15pt arial;
 }
 header{
-    color: #fff;
+    color: #F3E9DD;
     text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 section{
-    /*background-color: #fff;*/
+    /*background-color: #F3E9DD;*/
     text-align: center;
     /*border-radius: 10px;*/
     align-items: center;
@@ -17,9 +18,10 @@ section{
     /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
 }
 footer{
-    color: #fff;
+    color: #F3E9DD;
     text-align: center;
     font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -38,7 +40,7 @@ form#container-calc{
 }
 
 input[type^="text"] {
-    background-color: rgba(243, 233, 221, 0.8);
+    background-color: #F3E9DD;
     border: none;
     padding: 5px;
     margin: 3%;

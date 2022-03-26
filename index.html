@@ -14,35 +14,35 @@
     <section>
         <form id="container-calc">
 
-            <input type="text" name="txt1">
+            <input type="text" name="txt1" id="txt1">
 
             <div class="buttons">
                 <div id="b-numeros">
-                    <input type="button" value="7" name="botao">
-                    <input type="button" value="8" name="botao">
-                    <input type="button" value="9" name="botao">
+                    <input type="button" value="7" name="botao" onclick="digitar(7)">
+                    <input type="button" value="8" name="botao" onclick="digitar(8)">
+                    <input type="button" value="9" name="botao" onclick="digitar(9)">
 
-                    <input type="button" value="4" name="botao">
-                    <input type="button" value="5" name="botao">
-                    <input type="button" value="6" name="botao">
+                    <input type="button" value="4" name="botao" onclick="digitar(4)">
+                    <input type="button" value="5" name="botao" onclick="digitar(5)">
+                    <input type="button" value="6" name="botao" onclick="digitar(6)">
 
-                    <input type="button" value="1" name="botao">
-                    <input type="button" value="2" name="botao">
-                    <input type="button" value="3" name="botao">
+                    <input type="button" value="1" name="botao" onclick="digitar(1)">
+                    <input type="button" value="2" name="botao" onclick="digitar(2)">
+                    <input type="button" value="3" name="botao" onclick="digitar(3)">
 
-                    <input type="button" value="0" name="botao">
-                    <input type="button" value=" ." name="botao">
-                    <input type="button" value="=" name="botao">
+                    <input type="button" value="0" name="botao" onclick="digitar(0)">
+                    <input type="button" value=" ." name="botao" onclick="digitar('.')">
+                    <input type="button" value="=" name="botao" onclick="result()">
                 </div>
                 <div id="b-operadores">
-                    <input type="button" value="×" name="botao">
-                    <input type="button" value="÷" name="botao">
-                    <input type="button" value="+" name="botao">
-                    <input type="button" value="-" name="botao">
+                    <input type="button" value="×" name="botao" onclick="digitar('*')">
+                    <input type="button" value="÷" name="botao" onclick="digitar('/')">
+                    <input type="button" value="+" name="botao" onclick="digitar('+')">
+                    <input type="button" value="-" name="botao" onclick="digitar('-')">
 
-                    <input type="button" value=" )" name="botao">
-                    <input type="button" value=" (" name="botao">
-                    <input type="button" value="CE" name="botao">
+                    <input type="button" value=" )" name="botao" onclick="digitar(')')">
+                    <input type="button" value=" (" name="botao" onclick="digitar('(')">
+                    <input type="button" value="CE" name="botao" onclick="limpar()">
                 </div>
             </div>
         </form>
