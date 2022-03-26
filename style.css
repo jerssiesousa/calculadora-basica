@@ -94,3 +94,7 @@ div#b-operadores {
     justify-content: space-evenly;
     float: right;
 }
+a{
+    text-decoration: none;
+    color: #F3E9DD;
+}
