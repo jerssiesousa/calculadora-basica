@@ -2,20 +2,20 @@ body{
     background-color: #B7CADB;
     font: normal 15pt arial;
 }
+body.dark-mode{
+    background-color: #222831;
+}
 header{
     color: #F3E9DD;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 section{
-    /*background-color: #F3E9DD;*/
     text-align: center;
-    /*border-radius: 10px;*/
     align-items: center;
     padding: 15px;
+    margin-left: 37%;
     width: 500px;
-    margin: auto;
-    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
 }
 footer{
     color: #F3E9DD;
@@ -32,11 +32,11 @@ form#container-calc{
     align-items: center;
     border-radius: 15px;
     padding: 10px;
-    margin-left: 20%;
     background-color: #F3E9DD;
-    /*margin-left: 40%;
-    margin-top: 10%;*/
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+form#container-calc.dark-mode{
+    background-color: #393E46;
 }
 
 input[type^="text"] {
@@ -49,6 +49,11 @@ input[type^="text"] {
     max-width: 250px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
+input[type^="text"].dark-mode {
+    background-color: #393E46;
+    color: #F9F7F7;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
 input[type^="button"] {
     color: #bda27e;
     border: none;
@@ -60,6 +65,21 @@ input[type^="button"] {
     margin: 2px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+}
+input[type^="button"].dark-mode{
+    background-color: #393E46;
+    color: #00ADB5;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+input[type^="button"]:hover{
+    box-shadow: none;
+    color: rgba(187, 147, 94, 0.5);
+    background-color: rgba(240, 223, 202, 0.8);
+}
+input[type^="button"].dark-mode:hover{
+    background-color: #222831;
+    box-shadow: none;
+    color: #00ADB5;
 }
 div#b-numeros {
     max-width: 140px;
